@@ -8,13 +8,60 @@
     <a href="/" class="lang-logo">
       <img src="/static/lang-logo.png">
     </a>
-    <h1>Hello World</h1>
-      <p>This is a sample Go application deployed to Heroku.</p>
+    <h1>Moshe Karmel</h1>
+      <p>I write code. It's what I do.</p>
   </div>
 </div>
+
 <div class="container">
-  
+  <div class="row">
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  </div>
+  <div class="row">
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  </div>
+  <div class="row">
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  	<div class="col-md-4">
+  	  <div class="chart" data-percent="80">HTML5</div>
+  	</div>
+  </div>
 </div>
+
+<script type="text/javascript">
+	$(function() {
+	  $('.chart').easyPieChart({
+	    scaleColor: "#ecf0f1",
+	    lineWidth: 20,
+	    lineCap: 'butt',
+	    barColor: '#1abc9c',
+	    trackColor:	"#ecf0f1",
+	    size: 160,
+	    animate: 500
+	  });
+	});
+</script>
 
 </body>
 </html>
