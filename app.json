@@ -7,8 +7,7 @@
     "sample",
     "example"
   ],
-  "image": "heroku/go:1.5",
   "mount_dir": "src/github.com/heroku/go-getting-started",
-  "website": "http://google.com",
-  "repository": "http://github.com/heroku/go-getting-started"
+  "website": "http://moshekarmel.com",
+  "repository": "http://github.com/moshekarmel1/GoProj"
 }
