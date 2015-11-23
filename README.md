@@ -1,4 +1,4 @@
 
 # Go Project	
 
-Just tyring to learn a little more about Go and Heroku!
+Just trying to learn a little more about Go and Heroku!
